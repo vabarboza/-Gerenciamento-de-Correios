@@ -1,0 +1,88 @@
+.bg-danger-dark {
+    background-color: #7B0C08 !important;
+}
+
+.bg-azul {
+    background-color: #0F7EF8 !important;
+}
+
+.bg-verde {
+    background-color: #0DD960 !important;
+}
+
+.bg-roxo {
+    background-color: #9613E8 !important;
+}
+
+.bg-laranja {
+    background-color: #D98A0D !important;
+}
+
+.bg-branco {
+    background-color: white !important;
+}
+
+.custom-file-input:lang(pt)~.custom-file-label::after {
+    content: "Selecionar"
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+body {
+    /* The image used */
+    background-image: url("img/background.jpg");
+    /* Center and scale the image nicely */
+    font-size: 14px;
+}
+
+.mtn {
+    margin-top: -3%;
+}
+
+.btn-redondo {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
